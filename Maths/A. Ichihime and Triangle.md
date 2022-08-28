@@ -1,1 +1,20 @@
 
+link : https://codeforces.com/problemset/problem/1337/A
+# Solution
+
+```C++
+#include <iostream>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int a,b,c,d;
+        cin>>a>>b>>c>>d;
+        cout<<b<<" "<<c<<" "<<c<<endl; 
+    }
+    return 0;
+}
+```
+
